@@ -1,0 +1,279 @@
+
+@font-face {
+	font-family: miami;
+	src: url(../fonts/miami.ttf);
+}
+@font-face {
+	font-family: august;
+	src: url(../fonts/augustnight.ttf);
+}
+
+body {
+
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:cover;
+
+	background: repeating-linear-gradient(90deg, rgb(74.09% 84.25% 100%), rgb(78.57% 73.64% 100%), rgb(95.38% 78.88% 100%));
+}
+
+body>p {
+	font-size: 200%;
+	color:rgb(0% 5.7% 39.8%);
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.index {
+	text-align: center;
+
+}
+.index>p {
+	text-align: center;
+	font-size: min(max(32px, 4vw), 40px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.vid1 {
+	text-align: center;
+}
+
+.text>p {
+	border: 1px solid #665544; 
+	background-color: rgb(92.46% 73.33% 100% / 30%);
+	border-radius: .5rem;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header>p {
+	font-size:150%;
+	color:rgb(0% 5.7% 39.8%);
+	text-shadow: 2px 2px 5px rgb(92.46% 73.33% 100%);
+	border: 1px solid #665544; 
+	background-color: rgb(92.46% 73.33% 100% / 30%);
+	border-radius: .5rem;
+	font-family: 'Trebuchet MS', sans-serif;
+	
+}
+
+
+.header>h1{
+	font-family: miami;
+	font-size: min(max(32px, 4vw), 45px);
+	color:rgb(0% 5.7% 39.8%);
+	text-shadow: 5px 5px 5px rgb(100% 55.16% 95.5%);
+}
+
+.header>h2{
+	font-family: august;
+	font-size: min(max(25px, 4vw), 33px);
+	color:rgb(0% 5.7% 39.8%);
+	text-shadow: 1px 1px 5px rgb(91.34% 85.28% 100%);
+}
+
+
+
+
+.nav>ul>li{
+	display: inline;
+}
+
+.nav{
+	color: rgb(36.05% 35.87% 100%);
+	text-align: center;
+	border-style: solid; 
+	border-width: 5px;
+	border-color: rgb(56.05% 52.19% 73.42%);
+	border-collapse: collapse;
+	border-style: outset;
+	background-color:rgb(78.57% 73.64% 100%);
+	display: flex;
+	flex-wrap: wrap;
+	min-width:300px;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: min(max(32px, 4vw), 16px);
+}
+
+.text {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.text>p {
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 40%;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.imgs {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.imgs>img {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+/*-----------------------list-----------------------*/
+
+.disco>h1 {
+	font-size: min(max(32px, 4vw), 40px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.disco>h2 {
+	font-size: min(max(25px, 4vw), 33px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.disco>h3 {
+	font-size: min(max(25px, 4vw), 30px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.disco>ul {
+	border: 1px solid #665544; 
+	background-color: rgb(92.46% 73.33% 100% / 30%);
+	border-radius: .5rem;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.disco>ul>li {
+	font-size: min(max(16px, 4vw), 28px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.disco>ol>li {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	text-align: center;
+	font-size: min(max(16px, 4vw), 28px);
+	color:rgb(0% 5.7% 39.8%);
+	border: 1px solid #665544; 
+	background-color: rgb(92.46% 73.33% 100% / 30%);
+	border-radius: .5rem;
+	margin-top: 5%;
+	font-family: 'Trebuchet MS', sans-serif;
+	
+}
+
+.disco>ol>li>img {
+	max-height:300px;
+	
+}
+
+/*-----------------------quiz-----------------------*/
+
+.quiz {
+	color:rgb(0% 5.7% 39.8%);
+}
+.quiz>p {
+	font-size: min(max(16px, 4vw), 28px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+legend{
+	background-color: rgb(45.22% 70.17% 100%);
+	border-radius: .5rem;
+	padding: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	color: rgb(0% 5.7% 39.8%);
+	font-size: min(max(16px, 4vw), 28px);
+	font-family: august	;
+}
+feildset{
+	color: rgb(45.22% 70.17% 100%);
+	width: 350px;
+	border-radius: .5rem;
+	padding: 20px;
+	text-align: right;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+form>label {
+	font-size: min(max(16px, 4vw), 20px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.input1 {
+	font-size: min(max(16px, 4vw), 20px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.name {
+	font-size: min(max(16px, 4vw), 20px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.question {
+	font-size: min(max(16px, 4vw), 28px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.options {
+	font-size: min(max(16px, 4vw), 17px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+input#submit {
+	color: rgb(0% 5.7% 39.8%);
+	background-color: rgb(45.22% 70.17% 100%);
+	border: none;
+	border-radius: .5rem;
+	height: 50px;
+	width: 100px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+input#submit:hover {
+	color: rgb(45.22% 70.17% 100%);
+	background-color: rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+input.focus1:focus {
+	background-color: rgb(45.22% 70.17% 100%) 	;
+	border: 1px solid rgbrgb(95.38% 78.88% 100%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+#submit {
+	font-size: min(max(25px, 4vw), 17px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.quizend>h1 {
+	font-size: min(max(16px, 4vw), 45px);
+	color: rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.quizend>h2 {
+	font-size: min(max(16px, 4vw), 40px);
+	color: rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+img#happynagai {
+	border: 30px solid;
+	border-image: url("../images/bordersmile.gif") 11 11 11 11 round;
+	
+}
+/*-----------------------sources-----------------------*/
+
+.source {
+	color:rgb(0% 5.7% 39.8%);
+}
+.source>h1 {
+	font-size: min(max(32px, 4vw), 40px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.source>div>h2 {
+	font-size: min(max(25px, 4vw), 33px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.source>div>p {
+	font-size: min(max(25px, 4vw), 18px);
+	color:rgb(0% 5.7% 39.8%);
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.source>div>a {
+	font-size: min(max(25px, 4vw), 18px);
+	font-family: 'Trebuchet MS', sans-serif;
+}
