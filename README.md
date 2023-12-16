@@ -1,0 +1,1 @@
+this was a for fun website made with html and css. my images folder was too big so not all images are included. may attempt to upload large file using the git client at another point in time. for now though, if you have seen the images page im sure you would get the gist of what i was going for. hopfully the mossing images didnt break anything else though
